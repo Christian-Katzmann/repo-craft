@@ -2,7 +2,7 @@
 
 ![Repo Craft](assets/icon.png)
 
-Help people understand and try a repository through clear READMEs, verified first-use examples and truthful visual evidence.
+Turn your project into a polished GitHub repository people want to explore, with a compelling README, clear examples and visuals grounded in real results. Shape the README around your audience, verify the first useful steps, and choose screenshots or terminal output that make the value easy to see.
 
 ## Install
 
