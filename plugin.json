@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "repo-craft",
+  "version": "1.0.0",
+  "description": "Turn your project into a polished GitHub repository people want to explore, with a compelling README, clear examples and visuals grounded in real results.",
+  "author": {
+    "name": "Christian Katzmann"
+  },
+  "keywords": [
+    "skills",
+    "readme",
+    "repository-presentation",
+    "local-evidence"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Repo Craft",
+        "shortDescription": "Polish your GitHub repository",
+        "longDescription": "Turn your project into a polished GitHub repository people want to explore. Repo Craft helps you create a professional presentation with a compelling opening, clear examples and visuals that show what your project actually does. Shape the README around your audience, verify the first useful steps, and choose screenshots or terminal output that make the value easy to see. It adapts to apps, command-line tools, libraries and data projects, with a repository checker and terminal-image renderer included. Publication requires authorization. Requires a local coding assistant, Python 3.9+, Bash and Git. Browser tools are optional; checks are guidance, not a security certification.",
+        "developerName": "Christian Katzmann",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write",
+          "Local"
+        ],
+        "defaultPrompt": [
+          "Audit this repository README and suggest a clearer first-use journey.",
+          "Improve this repository presentation using verified local evidence.",
+          "Render this real terminal transcript as a readable SVG."
+        ],
+        "brandColor": "#2155CD",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
+        "websiteURL": "https://github.com/Christian-Katzmann/repo-craft",
+        "privacyPolicyURL": "https://github.com/Christian-Katzmann/repo-craft/blob/main/PRIVACY.md",
+        "supportURL": "https://github.com/Christian-Katzmann/repo-craft/blob/main/PRIVACY.md#publisher-and-contact"
+      }
+    }
+  },
+  "homepage": "https://github.com/Christian-Katzmann/repo-craft",
+  "repository": "https://github.com/Christian-Katzmann/repo-craft",
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Craft"
+  short_description: "Make repositories easy to try"
+  default_prompt: "Use $repo-craft to improve this repository presentation with verified evidence."
